@@ -1,7 +1,7 @@
 import pytest
 
 def test_passes():
-    assert 1 + 1 == 2
+    assert 1 + 1 == 11
 
 @pytest.mark.skip(reason="Never ever leave failing tests in the main branch!")
 def test_fails():
