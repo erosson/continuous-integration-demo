@@ -3,6 +3,9 @@ import pytest
 def test_passes():
     assert 1 + 1 == 2
 
+def test_passes_2():
+    assert 2 + 2 == 4
+
 @pytest.mark.skip(reason="Never ever leave failing tests in the main branch!")
 def test_fails():
     """Failing tests in the main branch block any other changes!
