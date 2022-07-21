@@ -1,4 +1,6 @@
 # continuous-integration-demo
+[![CI](https://github.com/erosson/continuous-integration-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/erosson/continuous-integration-demo/actions/workflows/ci.yml)
+
 This is what a git repository with **Continuous Integration (CI)** looks like.
 
 Continuous Integration is *the single best tool* I know of to stop your code from breaking. It's one of the first things I set up in any new codebase. I can't/won't work without it.
