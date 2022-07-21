@@ -1,3 +1,5 @@
+import pytest
+
 def test_passes():
     assert 1 + 1 == 2
 
